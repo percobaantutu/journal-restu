@@ -1,0 +1,42 @@
+.banner {
+  height: 100vh;
+  max-width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("image/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.banner-content {
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  box-shadow: 0 8px 6px -4px black;
+}
+
+.form-control {
+  background-color: rgb(17, 16, 16);
+}
+
+.form-control:focus {
+  background-color: rgb(17, 16, 16);
+  color: white;
+}
+
+.form-control {
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+}
